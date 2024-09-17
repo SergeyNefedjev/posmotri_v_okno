@@ -43,8 +43,7 @@ ol {
 .content {
   display: flex;
   inline-size: 1140px;
-  margin-left: 30px;
-  margin-right: 15px; 
+  margin: auto;
   gap: 30px;
   justify-content: space-between;
 }
@@ -78,7 +77,7 @@ ol {
   line-height: 94%;
   text-transform: uppercase;
   color: #fff;
-  padding-bottom: 26px;
+  padding-bottom: 19px;
 }
 
 .content__accent {
@@ -91,7 +90,6 @@ ol {
   flex-direction: column;
   height: 298px;
   overflow: auto;
-  overflow-x: hidden;
 }
 
 .content__list-item {
@@ -103,16 +101,16 @@ ol {
   justify-content: space-between;
 }
 
-.content__video-card-thumbnail {
-  width: 194px; 
-  height: 103px;
-  object-fit: cover;
-}
-
 .content__video-card-description-container {
   flex-grow: 1;
   flex-basis: 0;
   overflow: hidden;
+}
+
+.content__video-card-thumbnail {
+  width: 194px; 
+  height: 107px;
+  object-fit: cover;
 }
 
 .search-form__fieldset-title{
@@ -179,6 +177,10 @@ ol {
   min-width: 225px; 
   min-height: 54px;
   border: 0;
+}
+
+.search-form__fieldset:last-of-type {
+  padding-left: 4px;
 }
 
 .search-form__fieldset-title {
@@ -273,7 +275,7 @@ ol {
 }
 
 .more-button {
-  min-width: 399px;
+  min-width: 100%;
   min-height: 34px;
 }
 
